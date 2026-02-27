@@ -78,25 +78,20 @@ Furthermore, the data pipeline implements a [Medallion architecture](https://www
 
 A comprehensive dashboard is developed using [Metabase](https://www.metabase.com/), an open-source business intelligence tool. The dashboard features multiple tiles, each offering insights into various aspects of the stock trading data, including trends, patterns, and anomalies. By visualizing the data in a user-friendly manner, the dashboard empowers stakeholders to gain actionable insights and make informed decisions.
 
-![Screenshot 2024-03-29 at 5 45 54 PM](https://github.com/davidvanegas2/StreamSoft-Real-Time-Market-Analysis/assets/46963726/d9ae056b-2c9e-43eb-bf4b-c5dce91678a8)
-
 ## Usage
 
 To use this repository template, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/davidvanegas2/streamsoft_market_analysis.git
+   git clone https://github.com/melke22/treamsoft_market_analysis.git
    ```
-2. **Navigate to the root directory of the cloned repository:**
-   ```bash
-   cd streamsoft_market_analysis
-   ```
-3. Ensure you have the following prerequisites installed on your machine:
+
+2. Ensure you have the following prerequisites installed on your machine:
    - [Poetry](https://python-poetry.org/docs/)
    - [pyenv](https://github.com/pyenv/pyenv)
    - [Terraform](https://developer.hashicorp.com/terraform?product_intent=terraform)
-4. **Run the setup command:**
+3. **Run the setup command:**
 
    ```bash
    make setup
@@ -144,7 +139,4 @@ Once all the infrastructure is deployed, follow these manual steps to set up the
 3. Create Visualizations:
    - Once logged into Metabase, navigate to the visualization creation interface.
    - Create visualizations based on the data available in the connected data sources.
-   - Refer to the following images or guidelines for creating relevant visualizations:
-     ![Screenshot 2024-03-29 at 5 47 28 PM](https://github.com/davidvanegas2/StreamSoft-Real-Time-Market-Analysis/assets/46963726/14b2cf8f-d308-452e-8a0a-d24d154fa2d0)
-     ![Screenshot 2024-03-29 at 5 44 49 PM](https://github.com/davidvanegas2/StreamSoft-Real-Time-Market-Analysis/assets/46963726/cb3d5087-7a24-422a-976a-204d1ced8989)
    - Customize the visualizations according to your analysis requirements, incorporating relevant metrics, filters, and dimensions.
